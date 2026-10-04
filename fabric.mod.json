@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "clientcore",
+  "version": "1.0.0",
+  "name": "Toastyy Is Hereee",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "zr.M"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  },
+  "mixins": [
+    "corz-client.mixins.json"
+  ]
+}
